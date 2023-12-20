@@ -1,0 +1,12 @@
+MasterDB documentation:
+Problem statement:
+    Dashboard web service that tracks and shows the differences and similarities in naming conventions and data alteration between multiple tables of two databases.
+Working:
+    Data is requested from web services with respective databases in JSON form. After validation of data, data is stored in the database of masterDB with changed and unchanged row distribution. 
+Solution:
+	Technology:
+        django(rest api)
+        postgreSQL
+
+	Approch:
+    
